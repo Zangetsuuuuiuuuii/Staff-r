@@ -1,0 +1,16 @@
+// category_detail_page.dart
+import 'package:flutter/material.dart';
+
+class CategoryDetailPage extends StatelessWidget {
+  final String title;
+
+  const CategoryDetailPage({Key? key, required this.title}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: Text(title)),
+      body: Center(child: Text('Details for $title')),
+    );
+  }
+}

@@ -1,0 +1,43 @@
+name: staffing_app
+description: A simple staffing app
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.1.0
+  concentric_transition: ^1.0.3
+  fl_chart: ^0.63.0
+  smooth_page_indicator: ^1.1.0
+  date_picker_timeline: ^1.2.3
+  provider: ^6.1.1
+  table_calendar: ^3.0.9
+  intl: ^0.18.1
+  uuid: ^4.0.0
+  supabase_flutter: ^2.3.4
+  flutter_dotenv: ^5.1.0
+
+  # carousel_slider: 4.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - .env
+    - assets/banners/
+    - assets/logo.png
+    - assets/google.webp
+    - assets/facebook.webp
+    - assets/staffr_logo.png
+    - assets/staffr_logo.jpg
+    - assets/user_mascot.jpg
+    - assets/data/mock_professionals.json
+    - assets/data/reviews.json
+    - assets/Map.png
